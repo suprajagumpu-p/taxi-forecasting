@@ -6,7 +6,7 @@ from contextlib import contextmanager
 from types import SimpleNamespace
 
 import mlflow
-import pytest 
+import pytest
 
 from src.config import Config
 from src.utils import mlflow_utils
