@@ -20,7 +20,7 @@ phases:
       python: 3.11
     commands:
       - python -m pip install --upgrade pip
-      - pip install --upgrade databases fastapi
+      - pip install "SQLAlchemy<2.0.0"
       - pip install -r requirements.txt
 
   pre_build:
